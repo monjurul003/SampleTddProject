@@ -11,8 +11,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -22,6 +26,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1iA7dPMAOJZNBg2upj5weQZ6b7E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,10 +36,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mik.bowlingkata" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GameTest.testGame">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -44,6 +59,39 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SampleTddProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mik.bowlingkata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mik.bowlingkata" />
+      <option name="MAIN_CLASS_NAME" value="com.mik.bowlingkata.GameTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.testGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SampleTddProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mik.bowlingkata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mik.bowlingkata" />
+      <option name="MAIN_CLASS_NAME" value="com.mik.bowlingkata.GameTest" />
+      <option name="METHOD_NAME" value="testGame" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,6 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GameTest.testGame" />
+        <item itemvalue="JUnit.GameTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -84,11 +138,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601338628700</updated>
-      <workItem from="1601338632039" duration="1259000" />
+      <workItem from="1601338632039" duration="2210000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1790" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601349510904">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1790" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601349510904" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1601349898341">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601349898341" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1601349898340">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601349898340" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1601349898339">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601349898339" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1601349898340">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601349898340" />
+    <state x="2105" y="285" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1601349376103">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2105" y="285" key="com.intellij.testIntegration.createTest.CreateTestDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601349376103" />
   </component>
 </project>
