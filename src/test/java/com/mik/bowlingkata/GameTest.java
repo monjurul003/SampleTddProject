@@ -68,5 +68,12 @@ class GameTest {
         int actual = g.score();
         assertEquals(expected, actual, () -> "expected " + expected + " but received " + actual);
     }
-
+    @Test
+    @DisplayName("Test perfect game")
+    public void testPerfectGame(){
+        rollMany(12,10);
+        int expected = 300;
+        int actual = g.score();
+        assertEquals(expected, actual, () -> "expected " + expected + " but received " + actual);
+    }
 }

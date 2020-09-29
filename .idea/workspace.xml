@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de95f5be-de98-49d7-9f96-d6b132ae3227" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mik/bowlingkata/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mik/bowlingkata/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mik/bowlingkata/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mik/bowlingkata/GameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest">
+  <component name="RunManager" selected="JUnit.GameTest.testPerfectGame">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -99,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.testGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.testPerfectGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SampleTddProject" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +108,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.mik.bowlingkata" />
       <option name="MAIN_CLASS_NAME" value="com.mik.bowlingkata.GameTest" />
-      <option name="METHOD_NAME" value="testGame" />
+      <option name="METHOD_NAME" value="testPerfectGame" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -177,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTest.testPerfectGame" />
         <item itemvalue="JUnit.GameTest" />
         <item itemvalue="JUnit.GameTest.testWithOneStrike" />
         <item itemvalue="JUnit.GameTest.testAllOnes" />
         <item itemvalue="JUnit.GameTest.testWithOneSpare" />
-        <item itemvalue="JUnit.GameTest.testGame" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601338628700</updated>
       <workItem from="1601338632039" duration="2210000" />
-      <workItem from="1601402413433" duration="2114000" />
+      <workItem from="1601402413433" duration="2814000" />
     </task>
     <servers />
   </component>
@@ -221,22 +220,22 @@
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state x="1790" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601349510904" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1601407175029">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1601408017531">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601407175029" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1601407175027">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601408017531" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1601408017530">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601407175027" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1601407175026">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601408017530" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1601408017529">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601407175026" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1601407175028">
+    <state width="1878" height="290" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601408017529" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1601408017531">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601407175028" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601408017531" />
     <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1601402472645">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
