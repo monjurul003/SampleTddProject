@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de95f5be-de98-49d7-9f96-d6b132ae3227" name="Default Changelist" comment="" />
+    <list default="true" id="de95f5be-de98-49d7-9f96-d6b132ae3227" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mik/bowlingkata/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mik/bowlingkata/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mik/bowlingkata/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mik/bowlingkata/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mik/bowlingkata/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mik/bowlingkata/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mik/bowlingkata/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mik/bowlingkata/GameTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest.testGame">
+  <component name="RunManager" selected="JUnit.GameTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -96,6 +102,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GameTest.testWithOneSpare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SampleTddProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mik.bowlingkata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mik.bowlingkata" />
+      <option name="MAIN_CLASS_NAME" value="com.mik.bowlingkata.GameTest" />
+      <option name="METHOD_NAME" value="testWithOneSpare" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -123,8 +146,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GameTest.testGame" />
         <item itemvalue="JUnit.GameTest" />
+        <item itemvalue="JUnit.GameTest.testWithOneSpare" />
+        <item itemvalue="JUnit.GameTest.testGame" />
       </list>
     </recent_temporary>
   </component>
@@ -145,27 +169,38 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="1790" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601349510904">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state x="1790" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601349510904" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1601349898341">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1601401766501">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601349898341" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1601349898340">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601401766501" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1601401766499">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601349898340" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1601349898339">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601401766499" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1601401766497">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601349898339" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1601349898340">
+    <state width="1878" height="290" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601401766497" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1601401766500">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601349898340" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601401766500" />
     <state x="2105" y="285" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1601349376103">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
