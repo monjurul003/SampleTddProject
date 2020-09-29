@@ -25,6 +25,9 @@ class GameTest {
         g.roll(5);
         g.roll(5);
     }
+    private void rollStrike() {
+        g.roll(10);
+    }
 
     @Test
     @DisplayName("Test with all rolls zero")
@@ -54,6 +57,16 @@ class GameTest {
         int actual = g.score();
         assertEquals(expected, actual, () -> "expected " + expected + " but received " + actual);
     }
-
+    @Test
+    @DisplayName("Test with one strike")
+    public void testWithOneStrike() {
+        rollStrike();
+        g.roll(3);
+        g.roll(4);
+        rollMany(16,0);
+        int expected = 24;
+        int actual = g.score();
+        assertEquals(expected, actual, () -> "expected " + expected + " but received " + actual);
+    }
 
 }
