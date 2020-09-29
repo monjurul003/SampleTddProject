@@ -21,30 +21,39 @@ class GameTest {
         }
     }
 
+    private void rollSpare() {
+        g.roll(5);
+        g.roll(5);
+    }
+
     @Test
     @DisplayName("Test with all rolls zero")
-    public void testGame() throws Exception {
+    public void testWithAllZeros() throws Exception {
         rollMany(20, 0);
-        assertEquals(0, g.score(), () -> "expected 0 but got something else");
+        int expected = 0;
+        int actual = g.score();
+        assertEquals(expected, actual, () -> "expected " + expected + " but received " + actual);
     }
 
     @Test
     @DisplayName("Test with all one in the roll")
     public void testAllOnes() throws Exception {
         this.rollMany(20, 1);
-        assertEquals(20, g.score(), () -> "expected 20 but got something else");
+        int expected = 20;
+        int actual = g.score();
+        assertEquals(expected, actual, () -> "expected " + expected + " but received " + actual);
     }
 
     @Test
     @DisplayName("Test with one spare")
     public void testWithOneSpare() {
-        g.roll(5);
-        g.roll(5); //spare
+        rollSpare();
         g.roll(3);
         rollMany(17, 0);
         int expected = 16;
         int actual = g.score();
-        assertEquals(16, actual, () -> "expected " + expected + " but received " + actual);
+        assertEquals(expected, actual, () -> "expected " + expected + " but received " + actual);
     }
+
 
 }
