@@ -36,7 +36,6 @@ class GameTest {
     }
 
     @Test
-    @Disabled
     @DisplayName("Test with one spare")
     public void testWithOneSpare() {
         g.roll(5);
