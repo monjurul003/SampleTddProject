@@ -1,5 +1,5 @@
 package com.mik.stringcalculator;
 
-public class Calculator {
+public class StringCalculator {
 
 }

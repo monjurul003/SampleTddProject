@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="de95f5be-de98-49d7-9f96-d6b132ae3227" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/mik/scratchpad/ScratchPad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mik/stringcalculator/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mik/paybyphone/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mik/paybyphone/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mik/paybyphone/Calculator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mik/paybyphone/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mik/paybyphone/Calculator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,12 +64,12 @@
       <method />
     </configuration>
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mik.paybyphone.Calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.mik.stringcalculator.Calculator" />
       <module name="SampleTddProject" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mik.paybyphone.*" />
+          <option name="PATTERN" value="com.mik.stringcalculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,7 +193,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601338628700</updated>
       <workItem from="1601338632039" duration="2210000" />
-      <workItem from="1601402413433" duration="9374000" />
+      <workItem from="1601402413433" duration="10326000" />
     </task>
     <servers />
   </component>
@@ -217,22 +218,22 @@
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state x="1790" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601349510904" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1601433588879">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1601434344473">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601433588879" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1601433588873">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601434344473" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1601434344472">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601433588873" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1601433588872">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601434344472" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1601434344470">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601433588872" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1601433588874">
+    <state width="1878" height="290" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601434344470" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1601434344472">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601433588874" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601434344472" />
     <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1601402472645">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
