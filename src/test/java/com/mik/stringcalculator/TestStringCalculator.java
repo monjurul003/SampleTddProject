@@ -29,11 +29,20 @@ public class TestStringCalculator {
         int actual = calculator.add("1");
         assertEquals(expected, actual, () -> "should return " + expected + " but returned " + actual);
     }
+
     @Test
-    @DisplayName("Test with comma separated two number in the string")
-    public void testWithTwoCommaSeparatedNumber() {
+    @DisplayName("Test with comma separated two numbers in the string")
+    public void testWithCommaSeparatedTwoNumbers() {
         int expected = 3;
         int actual = calculator.add("1,2");
+        assertEquals(expected, actual, () -> "should return " + expected + " but returned " + actual);
+    }
+
+    @Test
+    @DisplayName("Test with comma separated multiple numbers in the string")
+    public void testWithCommaSeparatedMultipleNumbers() {
+        int expected = 6;
+        int actual = calculator.add("1,2,3");
         assertEquals(expected, actual, () -> "should return " + expected + " but returned " + actual);
     }
 
