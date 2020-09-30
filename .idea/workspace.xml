@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de95f5be-de98-49d7-9f96-d6b132ae3227" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mik/stringcalculator/TestStringCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mik/stringcalculator/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mik/stringcalculator/StringCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mik/paybyphone/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mik/stringcalculator/TestStringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mik/stringcalculator/TestStringCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,23 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.testPerfectGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SampleTddProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mik.bowlingkata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mik.bowlingkata" />
-      <option name="MAIN_CLASS_NAME" value="com.mik.bowlingkata.GameTest" />
-      <option name="METHOD_NAME" value="testPerfectGame" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestStringCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SampleTddProject" />
       <extension name="coverage">
@@ -140,6 +122,23 @@
       <option name="PACKAGE_NAME" value="com.mik.stringcalculator" />
       <option name="MAIN_CLASS_NAME" value="com.mik.stringcalculator.TestStringCalculator" />
       <option name="METHOD_NAME" value="testWithEmptyString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStringCalculator.testWithOneDigitString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SampleTddProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mik.stringcalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mik.stringcalculator" />
+      <option name="MAIN_CLASS_NAME" value="com.mik.stringcalculator.TestStringCalculator" />
+      <option name="METHOD_NAME" value="testWithOneDigitString" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -174,10 +173,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestStringCalculator" />
+        <item itemvalue="JUnit.TestStringCalculator.testWithOneDigitString" />
         <item itemvalue="JUnit.TestStringCalculator.testWithEmptyString" />
         <item itemvalue="Application.ScratchPad" />
         <item itemvalue="Application.Calculator" />
-        <item itemvalue="JUnit.GameTest.testPerfectGame" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601338628700</updated>
       <workItem from="1601338632039" duration="2210000" />
-      <workItem from="1601402413433" duration="11326000" />
+      <workItem from="1601402413433" duration="11844000" />
     </task>
     <servers />
   </component>
@@ -217,22 +216,22 @@
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state x="1790" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601349510904" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1601440508895">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1601444703346">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601440508895" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1601440508893">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601444703346" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1601444703343">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601440508893" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1601440508892">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601444703343" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1601444703342">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601440508892" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1601440508894">
+    <state width="1878" height="290" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601444703342" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1601444703345">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601440508894" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601444703344" />
     <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1601402472645">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
