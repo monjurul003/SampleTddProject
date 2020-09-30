@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de95f5be-de98-49d7-9f96-d6b132ae3227" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mik/bowlingkata/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mik/bowlingkata/GameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mik/scratchpad/ScratchPad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mik/paybyphone/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mik/paybyphone/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mik/paybyphone/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mik/paybyphone/Calculator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,13 +54,41 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest.testPerfectGame">
+  <component name="RunManager" selected="Application.ScratchPad">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
       <method />
+    </configuration>
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mik.paybyphone.Calculator" />
+      <module name="SampleTddProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mik.paybyphone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScratchPad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mik.scratchpad.ScratchPad" />
+      <module name="SampleTddProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mik.scratchpad.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -81,23 +112,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.testAllOnes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SampleTddProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mik.bowlingkata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mik.bowlingkata" />
-      <option name="MAIN_CLASS_NAME" value="com.mik.bowlingkata.GameTest" />
-      <option name="METHOD_NAME" value="testAllOnes" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GameTest.testPerfectGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SampleTddProject" />
       <extension name="coverage">
@@ -109,23 +123,6 @@
       <option name="PACKAGE_NAME" value="com.mik.bowlingkata" />
       <option name="MAIN_CLASS_NAME" value="com.mik.bowlingkata.GameTest" />
       <option name="METHOD_NAME" value="testPerfectGame" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameTest.testWithOneSpare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SampleTddProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mik.bowlingkata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mik.bowlingkata" />
-      <option name="MAIN_CLASS_NAME" value="com.mik.bowlingkata.GameTest" />
-      <option name="METHOD_NAME" value="testWithOneSpare" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -176,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScratchPad" />
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="JUnit.GameTest.testPerfectGame" />
         <item itemvalue="JUnit.GameTest" />
         <item itemvalue="JUnit.GameTest.testWithOneStrike" />
-        <item itemvalue="JUnit.GameTest.testAllOnes" />
-        <item itemvalue="JUnit.GameTest.testWithOneSpare" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601338628700</updated>
       <workItem from="1601338632039" duration="2210000" />
-      <workItem from="1601402413433" duration="2814000" />
+      <workItem from="1601402413433" duration="9374000" />
     </task>
     <servers />
   </component>
@@ -220,22 +217,22 @@
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state x="1790" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601349510904" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1601408017531">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1601433588879">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601408017531" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1601408017530">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601433588879" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1601433588873">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601408017530" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1601408017529">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601433588873" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1601433588872">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601408017529" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1601408017531">
+    <state width="1878" height="290" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601433588872" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1601433588874">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601408017531" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601433588874" />
     <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1601402472645">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
