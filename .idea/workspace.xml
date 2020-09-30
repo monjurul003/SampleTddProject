@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="de95f5be-de98-49d7-9f96-d6b132ae3227" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mik/scratchpad/ScratchPad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mik/scratchpad/ScratchPad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mik/stringcalculator/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mik/stringcalculator/StringCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/mik/stringcalculator/TestStringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mik/stringcalculator/TestStringCalculator.java" afterDir="false" />
     </list>
@@ -54,7 +53,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestStringCalculator.testWithNegativeNumber">
+  <component name="RunManager" selected="JUnit.TestStringCalculator">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -98,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStringCalculator.testWithCommaAndNewLineSeparatedMultipleNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStringCalculator.testWithBigNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SampleTddProject" />
       <extension name="coverage">
         <pattern>
@@ -108,7 +107,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.mik.stringcalculator" />
       <option name="MAIN_CLASS_NAME" value="com.mik.stringcalculator.TestStringCalculator" />
-      <option name="METHOD_NAME" value="testWithCommaAndNewLineSeparatedMultipleNumbers" />
+      <option name="METHOD_NAME" value="testWithBigNumber" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -176,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestStringCalculator.testWithNegativeNumber" />
         <item itemvalue="JUnit.TestStringCalculator" />
+        <item itemvalue="JUnit.TestStringCalculator.testWithBigNumber" />
+        <item itemvalue="JUnit.TestStringCalculator.testWithNegativeNumber" />
         <item itemvalue="JUnit.TestStringCalculator.testWithCustomDelimiter" />
         <item itemvalue="Application.ScratchPad" />
-        <item itemvalue="JUnit.TestStringCalculator.testWithCommaAndNewLineSeparatedMultipleNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601338628700</updated>
       <workItem from="1601338632039" duration="2210000" />
-      <workItem from="1601402413433" duration="17523000" />
+      <workItem from="1601402413433" duration="17784000" />
     </task>
     <servers />
   </component>
@@ -224,22 +223,22 @@
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state x="1790" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601349510904" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1601452028141">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1601452326916">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601452028141" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1601452028140">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601452326916" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1601452326914">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601452028140" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1601452028139">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601452326914" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1601452326913">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601452028139" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1601452028141">
+    <state width="1878" height="290" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601452326913" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1601452326915">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601452028141" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601452326915" />
     <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1601402472645">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>

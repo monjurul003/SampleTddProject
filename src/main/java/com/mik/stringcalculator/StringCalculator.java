@@ -29,7 +29,7 @@ public class StringCalculator {
         if (negativeList.size() > 0) {
             throw new RuntimeException("Negatives not allowed: " + negativeList);
         }
-        return numList;
+        return Arrays.asList(numList.stream().filter(i -> i<1000).toArray(Integer[]::new));
     }
 
     private List<String> tokenize(String s) {

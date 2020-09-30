@@ -72,7 +72,14 @@ public class TestStringCalculator {
         } catch (RuntimeException ex) {
             assertEquals("Negatives not allowed: [-2, -4]", ex.getMessage());
         }
+    }
 
+    @Test
+    @DisplayName("Test with number bigger than 1000")
+    public void testWithBigNumber() {
+        int expected = 2;
+        int actual = calculator.add("//;\n1000;2");
+        assertEquals(expected, actual, () -> "should return " + expected + " but returned " + actual);
     }
 
 }
