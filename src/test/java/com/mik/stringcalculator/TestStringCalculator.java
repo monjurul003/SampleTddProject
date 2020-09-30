@@ -5,6 +5,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
 
 public class TestStringCalculator {
     StringCalculator calculator;
@@ -44,6 +45,34 @@ public class TestStringCalculator {
         int expected = 6;
         int actual = calculator.add("1,2,3");
         assertEquals(expected, actual, () -> "should return " + expected + " but returned " + actual);
+    }
+
+    @Test
+    @DisplayName("Test with comma separated multiple numbers with new line command in the string")
+    public void testWithCommaAndNewLineSeparatedMultipleNumbers() {
+        int expected = 6;
+        int actual = calculator.add("1,2\n3");
+        assertEquals(expected, actual, () -> "should return " + expected + " but returned " + actual);
+    }
+
+    @Test
+    @DisplayName("Test with custom delimiter in the string")
+    public void testWithCustomDelimiter() {
+        int expected = 3;
+        int actual = calculator.add("//;\n1;2");
+        assertEquals(expected, actual, () -> "should return " + expected + " but returned " + actual);
+    }
+
+    @Test
+    @DisplayName("Test with negative number in the string")
+    public void testWithNegativeNumber() {
+        try {
+            calculator.add("1,-2,3,-4");
+            fail("Exception expected!");
+        } catch (RuntimeException ex) {
+            assertEquals("Negatives not allowed: [-2, -4]", ex.getMessage());
+        }
+
     }
 
 }

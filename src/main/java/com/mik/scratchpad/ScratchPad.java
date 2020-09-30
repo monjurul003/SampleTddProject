@@ -26,27 +26,34 @@ public class ScratchPad {
     }
 
     public static void main(String[] args) {
-        String str = "//[;][%][,]\n1,2;3%4";
-        Matcher matcher = Pattern.compile("//(.*)\n(.*)").matcher(str);
+        Matcher matcher = Pattern.compile("//(.)\n(.*)").matcher("//;\n1;2");
         matcher.matches();
-        String customDelimeter = matcher.group(1);
-        System.out.println(customDelimeter);
-
-        String numbers = matcher.group(2);
-        System.out.println(numbers);
-        System.out.println(Pattern.quote(customDelimeter));
-        List<String> strList = Arrays.asList(numbers.split(Pattern.quote(customDelimeter)));
+        String customDelimiter = matcher.group(1);
+        String numberString = matcher.group(2);
+        List<String> strList =Arrays.asList(numberString.split(customDelimiter));
         strList.forEach(System.out::println);
-
-        str = "1,2;3%4";
-        String[] s = str.split("[,;%]");
-        Arrays.asList(s).forEach(System.out::println);
-        String sp = insertPipeChar("[,][;][%]");
-        System.out.println(sp);
-        System.out.println("************");
-        str = "1***2***3";
-        s = str.split("[*]+");
-        System.out.println(s.length);
-        Arrays.asList(s).forEach(System.out::println);
+//
+//        String str = "//[;][%][,]\n1,2;3%4";
+//        Matcher matcher = Pattern.compile("//(.*)\n(.*)").matcher(str);
+//        matcher.matches();
+//        String customDelimeter = matcher.group(1);
+//        System.out.println(customDelimeter);
+//
+//        String numbers = matcher.group(2);
+//        System.out.println(numbers);
+//        System.out.println(Pattern.quote(customDelimeter));
+//        List<String> strList = Arrays.asList(numbers.split(Pattern.quote(customDelimeter)));
+//        strList.forEach(System.out::println);
+//
+//        str = "1,2;3%4";
+//        String[] s = str.split("[,;%]");
+//        Arrays.asList(s).forEach(System.out::println);
+//        String sp = insertPipeChar("[,][;][%]");
+//        System.out.println(sp);
+//        System.out.println("************");
+//        str = "1***2***3";
+//        s = str.split("[*]+");
+//        System.out.println(s.length);
+//        Arrays.asList(s).forEach(System.out::println);
     }
 }
